@@ -23,7 +23,7 @@
 }
 
 body{
-    cursor: url(orb-cursor.png), default;
+    cursor: url(img/orb-cursor.png), default;
 }
 
 h1{
@@ -43,7 +43,7 @@ h1{
     z-index: 10;
 }
 #pop-up .container{
-    background-image: url(pausa.png); 
+    background-image: url(img/pausa.png); 
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 50px;
@@ -72,7 +72,7 @@ button{
     border: 1px solid #15141e;
     font-size: 15px;
     margin-left: 10px;
-    cursor: url(orb-cursor.png), default;
+    cursor: url(img/orb-cursor.png), default;
     transition: 0.2s;
 }
 
@@ -117,18 +117,18 @@ button:hover{
 }
 
 .stars {
-  background:#15141e url(stars.png) repeat top center;
+  background:#15141e url(img/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-  background:transparent url(twinkling.png) repeat top center;
+  background:transparent url(img/twinkling.png) repeat top center;
   z-index:1;
   animation:move-twink-back 200s linear infinite;
 }
 
 .clouds{
-    background:transparent url(clouds.png) repeat top center;
+    background:transparent url(img/clouds.png) repeat top center;
     z-index:2;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
