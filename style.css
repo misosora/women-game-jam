@@ -73,6 +73,12 @@ button{
     font-size: 15px;
     margin-left: 10px;
     cursor: url(orb-cursor.png), default;
+    transition: 0.2s;
+}
+
+button:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
 }
 
 /*// POP-UP ANIMATION //*/
