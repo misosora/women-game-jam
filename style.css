@@ -11,15 +11,20 @@
     margin: auto;
 }   
 
+@font-face {
+    font-family: oliver;
+    src: url(oliver.ttf);
+}
+
 *{
-    font-family: Montserrat; 
+    font-family: oliver; 
     font-weight: normal;
     color: #ffffff;
 }
 
 h1{
     position: relative;
-    font-family: Pacifico;
+    font-family: oliver;
     font-size: 25px;
     margin-bottom: 60px;
     margin-top: 0px;
