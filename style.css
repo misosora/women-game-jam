@@ -9,7 +9,7 @@
 #orbs div {
     padding: 5px;
     margin: auto;
-}   
+}
 
 @font-face {
     font-family: oliver;
@@ -20,6 +20,10 @@
     font-family: oliver; 
     font-weight: normal;
     color: #ffffff;
+}
+
+body{
+    cursor: url(orb-cursor.png), default;
 }
 
 h1{
@@ -53,34 +57,22 @@ h1{
 }
 #pop-up input{
     padding: 10px;
-    margin-top: 0px;
+    margin-top: 150px;
     border: 0;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px;
     border: 1px solid #15141e;
     font-size: 15px;
+    color: #15141e;
 }
 button{
     padding: 10px;
-    border: 0;
-    color: #15141e;
-    background: #ffffff;
-    margin-left: -5px;
-    margin-left: -5px;
-    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    background: #33314b;
+    border-radius: 10px;
     border: 1px solid #15141e;
     font-size: 15px;
-}
-.cross{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #ffffff;
-    color: #15141e;
-    font-weight: bold;
-    width: 22px;
-    height: 22px;
-    text-align: center;
-    border-radius: 11px;
+    margin-left: 10px;
+    cursor: url(orb-cursor.png), default;
 }
 
 /*// POP-UP ANIMATION //*/

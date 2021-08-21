@@ -17,7 +17,7 @@ function makePopUp(map, text, isPuzzle) {
     popUp.setAttribute("id", "pop-up");
 
     var container = document.createElement('div');
-    container.setAttribute("id", "container");
+    container.setAttribute("class", "container");
     container.style.backgroundImage = "url('pausa.png')";
 
     var h1 = document.createElement('h1');
@@ -34,7 +34,7 @@ function makePopUp(map, text, isPuzzle) {
         submitAnswer.onclick = function() {
             checkPuzzleAnswer(map);
         };
-        submitAnswer.innerHTML = "☆";
+        submitAnswer.innerHTML = "★";
     
         container.appendChild(answerInput);
         container.appendChild(submitAnswer);
@@ -45,7 +45,7 @@ function makePopUp(map, text, isPuzzle) {
         var popUp = document.getElementById('pop-up');
         popUp.remove();
     }
-    closeButton.innerHTML = 'x';
+    closeButton.innerHTML = 'X';
 
     container.appendChild(closeButton);
 
