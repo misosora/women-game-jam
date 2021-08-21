@@ -1,0 +1,22 @@
+[
+    {
+        "type": "narrative",
+        "stories": [
+            {
+                "title": "ablabla"
+            }, 
+            {
+                "another-title": "ablablabla"
+            }
+        ]
+    },
+    {
+        "type": "puzzle",
+        "stories": [
+            {
+                "title": "AAAAAAA",
+                "solution": "lol"
+            }
+        ]
+    }
+]
