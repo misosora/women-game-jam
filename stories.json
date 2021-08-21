@@ -1,22 +1,38 @@
-[
-    {
-        "type": "narrative",
+{
+    "aquila": {
         "stories": [
-            {
-                "title": "ablabla"
-            }, 
-            {
-                "another-title": "ablablabla"
-            }
-        ]
+            "primeira historia",
+            "segunda historia"
+        ],     
+            
+        "puzzle": {
+            "text": "AAAAAAA",
+            "solution": "lol"
+        }
+    }, 
+    
+    "capricorn": {
+        "stories": [
+            "primeira historia",
+            "segunda historia"
+        ],     
+            
+        "puzzle": {
+            "text": "AAAAAAA",
+            "solution": "lol"
+        }
     },
-    {
-        "type": "puzzle",
+
+    "libra": {
         "stories": [
-            {
-                "title": "AAAAAAA",
-                "solution": "lol"
-            }
-        ]
+            "primeira historia",
+            "segunda historia"
+        ],     
+            
+        "puzzle": {
+            "text": "AAAAAAA",
+            "solution": "lol"
+        }
     }
-]
+
+}

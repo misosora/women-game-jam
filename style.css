@@ -1,0 +1,16 @@
+#orbs {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: auto;
+    overflow: scroll;
+}
+
+#orbs div {
+    padding: 5px;
+    margin: auto;
+    background-color: aqua;
+}   
+
+#orbs div:nth-child(even) {
+    background-color: aquamarine;
+}
