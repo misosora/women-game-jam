@@ -14,7 +14,7 @@
 *{
     font-family: Montserrat; 
     font-weight: normal;
-    color: #202020;
+    color: #ffffff;
 }
 
 h1{
@@ -34,7 +34,7 @@ h1{
     z-index: 10;
 }
 #pop-up .container{
-    background-image: url(background.png); 
+    background-image: url(pausa.png); 
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 50px;
@@ -51,26 +51,26 @@ h1{
     margin-top: 0px;
     border: 0;
     border-radius: 10px 0 0 10px;
-    border: 1px solid #ffcf57;
+    border: 1px solid #15141e;
     font-size: 15px;
 }
 button{
     padding: 10px;
     border: 0;
-    color: #ffffff;
-    background: #ffcf57;
+    color: #15141e;
+    background: #ffffff;
     margin-left: -5px;
     margin-left: -5px;
     border-radius: 0 10px 10px 0;
-    border: 1px solid #ffcf57;
+    border: 1px solid #15141e;
     font-size: 15px;
 }
 .cross{
     position: absolute;
     top: 10px;
     left: 10px;
-    background: #ffcf57;
-    color: #ffffff;
+    background: #ffffff;
+    color: #15141e;
     font-weight: bold;
     width: 22px;
     height: 22px;

@@ -18,7 +18,7 @@ function makePopUp(map, text, isPuzzle) {
 
     var container = document.createElement('div');
     container.setAttribute("id", "container");
-    container.style.backgroundImage = "url('background.png')";
+    container.style.backgroundImage = "url('pausa.png')";
 
     var h1 = document.createElement('h1');
     h1.innerHTML = text
