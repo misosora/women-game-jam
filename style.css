@@ -1,0 +1,76 @@
+body{margin: 0; position: relative;}
+body.pop-up{background: #202020;}
+*{
+    font-family: Montserrat; 
+    font-weight: normal;
+    color: #202020;
+}
+h1{
+    font-family: Pacifico;
+    font-size: 25px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+#pop-up{
+    position: relative; 
+    top: 200px; 
+    width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+#pop-up .container{
+    background-image: url("img/background.png"); 
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 400px;
+    position: absolute; 
+    width: 100%; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+#pop-up input{
+    padding: 10px;
+    margin-top: 0px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #ffcf57;
+    font-size: 15px;
+}
+button{
+    padding: 10px;
+    border: 0;
+    color: #ffffff;
+    background: #ffcf57;
+    margin-left: -5px;
+    margin-left: -5px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #ffcf57;
+    font-size: 15px;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ffcf57;
+    color: #ffffff;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 11px;
+}
+
+/*// POP-UP ANIMATION //*/
+
+#pop-up{
+    animation: zoom 0.8s ease forwards;
+}
+
+@keyframes zoom{
+    0%{transform: scale(0);}
+    70%{transform: scale(1.1)}
+    100%{transform: scale(1);}
+}
