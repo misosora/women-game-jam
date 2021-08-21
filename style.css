@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: auto;
+    position: relative;
+    z-index: 10;
 }
 
 #orbs div {
@@ -9,25 +11,27 @@
     margin: auto;
 }   
 
-body{margin: 0; position: relative;}
-body.pop-up{background: #202020;}
 *{
     font-family: Montserrat; 
     font-weight: normal;
     color: #202020;
 }
+
 h1{
+    position: relative;
     font-family: Pacifico;
     font-size: 25px;
     margin-bottom: 60px;
     margin-top: 0px;
+    z-index: 10;
 }
 #pop-up{
     position: relative; 
-    top: 200px; 
+    top: 100px; 
     width: 800px; 
     margin: 0 auto; 
     text-align: center;
+    z-index: 10;
 }
 #pop-up .container{
     background-image: url(background.png); 
@@ -84,4 +88,45 @@ button{
     0%{transform: scale(0);}
     70%{transform: scale(1.1)}
     100%{transform: scale(1);}
+}
+
+/*// BACKGROUND //*/
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#15141e url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(twinkling.png) repeat top center;
+  z-index:1;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(clouds.png) repeat top center;
+    z-index:2;
+    opacity: .4;
+    animation:move-clouds-back 200s linear infinite;
 }
