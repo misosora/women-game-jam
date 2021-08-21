@@ -27,7 +27,7 @@ function makePopUp(map, text, isPuzzle) {
     if (isPuzzle) {
         var answerInput = document.createElement('input');
         answerInput.setAttribute("id", "puzzleAnswer");
-        answerInput.setAttribute("type", "resposta");
+        answerInput.setAttribute("type", "text");
         answerInput.setAttribute("placeholder", "resposta");
 
         var submitAnswer = document.createElement('button');
@@ -64,9 +64,9 @@ function checkPuzzleAnswer(map) {
     var puzzleAnswer = document.getElementById("puzzleAnswer");
 
     console.log(puzzleExpectedAnswer);
-    console.log(puzzleAnswer.innerHTML);
+    console.log(puzzleAnswer.value);
 
-    if (puzzleAnswer.innerHTML == puzzleExpectedAnswer) {
+    if (puzzleAnswer.value == puzzleExpectedAnswer) {
         alert("certo mizeravi");
     } else {
         alert("erro");
