@@ -5,7 +5,6 @@
 </head>
 <body>
     <audio src="music/music.mp3"></audio>
-    <button onclick="playAudio()">PLAY</button>
 
     <!-- Background -->
     <div class="stars"></div>
@@ -13,6 +12,8 @@
     <div class="clouds"></div>
 
     <div class="starmap">
+        <button class="audio" id="audioButton" onclick="playAudio()"></button>
+
         <img src="assets/img/libra.png" alt="stars" usemap="#orbs" width="100%">
         <map name="orbs">
             <area onclick="onStorieOrbClick('libra',0)" alt="a" href="#" coords="1104,1629,71" shape="circle">

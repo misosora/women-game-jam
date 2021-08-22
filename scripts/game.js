@@ -1,14 +1,17 @@
-var requestURL = "https://github.com/gabiusp/women-game-jam/blob/main/stories.json";
-var request = new XMLHttpRequest();
-
-request.open('GET', requestURL);
-request.responseType = "json";
-
-request.send();
-
 let stories;
-request.onload =  function() {
-    stories = request.response;
+
+function readStories() {
+    var requestURL = "https://raw.githubusercontent.com/gabiusp/women-game-jam/script/stories.json";
+    var request = new XMLHttpRequest();
+
+    request.open('GET', requestURL);
+    request.responseType = "json";
+
+    request.send();
+
+    request.onload =  function() {
+        stories = request.response;
+    }
 }
 
 function makePopUp(map, text, isPuzzle) {
@@ -51,6 +54,23 @@ function makePopUp(map, text, isPuzzle) {
     document.body.appendChild(popUp);
 }
 
+function gotoNextConstelation(map) {
+    switch(map) {
+        case 'aquila':
+            window.location.href = "capricorn.html";   
+            break;
+        case 'capricorn':
+            window.location.href = "libra.html";
+            break;
+        case 'libra':
+            window.location.href = "index.html";
+            break;
+        default:
+            alert("erro");
+            break;
+    }
+}
+
 function checkPuzzleAnswer(map) {
     console.log(stories[map]["puzzle"]);
     var puzzleExpectedAnswer = stories[map]["puzzle"]["solution"];
@@ -60,7 +80,7 @@ function checkPuzzleAnswer(map) {
     console.log(puzzleAnswer.value);
 
     if (puzzleAnswer.value == puzzleExpectedAnswer) {
-        alert("certo mizeravi");
+        gotoNextConstelation(map);
     } else {
         alert("erro");
     }
@@ -76,3 +96,6 @@ function onStorieOrbClick(map, storieIndex) {
     var storie = stories[map]["stories"][storieIndex];
     makePopUp(map, storie, false);
 }
+
+
+readStories();

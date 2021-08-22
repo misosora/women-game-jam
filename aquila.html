@@ -4,10 +4,7 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="audio">
-        <audio src="music/music.mp3"></audio>
-        <button onclick="playAudio()">PLAY</button>
-    </div>
+    <audio src="music/music.mp3"></audio>
  
     <!-- Background -->
     <div class="stars"></div>
@@ -15,6 +12,8 @@
     <div class="clouds"></div>  
 
     <div class="starmap">
+        <button class="audio"id="audioButton" onclick="playAudio()"></button>
+
         <img src="assets/img/aquila.png" usemap="#orbs">
         <map name="orbs">
             <area onclick="onStorieOrbClick('aquila', 0)" alt="#" href="#" coords="551,1178,67" shape="circle">

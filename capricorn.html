@@ -5,7 +5,7 @@
 </head>
 <body>
     <audio src="music/music.mp3"></audio>
-    <button onclick="playAudio()">PLAY</button>
+    
 
     <!-- Background -->
     <div class="stars"></div>
@@ -13,6 +13,8 @@
     <div class="clouds"></div>
 
     <div class="starmap">
+        <button class="audio" id="audioButton" onclick="playAudio()"></button>
+
         <img src="assets/img/capricorn.png" alt="stars" usemap="#orbs" width="100%">
         <map name="orbs">
             <area onclick="onStorieOrbClick('capricorn', 0)" alt="#" href="#" coords="2050,461,59" shape="circle">
