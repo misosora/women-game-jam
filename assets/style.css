@@ -92,12 +92,11 @@ button:hover{
     to {background-position:10000px 0;}
 }
 
-.stars, .twinkling, .clouds, .starmap, .audio {
+.stars, .twinkling, .clouds, .starmap, .audioButton {
   position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+  top: 0;
+  left: 0;
+  right: 0;
   width:100%;
   height:100%;
   display:block;
@@ -105,32 +104,34 @@ button:hover{
 
 .stars {
   background:#15141e url(img/stars.png) repeat top center;
-  z-index:0;
-}
-
-.twinkling{
-  background:transparent url(img/twinkling.png) repeat top center;
   z-index:1;
-  animation:move-twink-back 200s linear infinite;
 }
 
-.clouds{
+.twinkling {
+  background:transparent url(img/twinkling.png) repeat top center;
+  z-index:2;
+  animation:move-twink-back 200s linear infinite;
+}   
+
+.clouds {
     background:transparent url(img/clouds.png) repeat top center;
-    z-index:2;
+    z-index:3;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
 }
 
 .starmap {
-    z-index:3; 
-}
-
-.audio {
     z-index:4;
 }
 
+.audioButton {
+    width: auto;
+    height: auto;
+    z-index: 4;
+}
+
 .starmap img {
-    height: 100%;
+    height: 90%;
     width: 70%;
     display: block;
     margin: auto;
