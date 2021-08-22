@@ -118,18 +118,18 @@ button:hover{
 
 .stars {
   background:#15141e url(img/stars.png) repeat top center;
-  z-index:0;
+  z-index:-3;
 }
 
 .twinkling{
   background:transparent url(img/twinkling.png) repeat top center;
-  z-index:1;
+  z-index:-2;
   animation:move-twink-back 200s linear infinite;
 }
 
 .clouds{
     background:transparent url(img/clouds.png) repeat top center;
-    z-index:2;
+    z-index:-1;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
 }

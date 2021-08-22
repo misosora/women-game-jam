@@ -12,6 +12,7 @@ request.onload =  function() {
 }
 
 
+
 function makePopUp(map, text, isPuzzle) {
     var popUp = document.createElement('div');
     popUp.setAttribute("id", "pop-up");
