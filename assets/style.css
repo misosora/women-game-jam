@@ -136,3 +136,13 @@ button:hover{
     margin: auto;
 }
 
+#start button{
+    width: 150px;
+    height: 70px;
+    margin-top: 330px;
+    margin-left: 950px;
+}
+
+#start-screen{
+    background: url(img/start.png);
+}
