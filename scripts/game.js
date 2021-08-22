@@ -56,6 +56,9 @@ function makePopUp(map, text, isPuzzle) {
 
 function gotoNextConstelation(map) {
     switch(map) {
+        case 'index':
+            window.location.href = "aquila.html";
+            break;
         case 'aquila':
             window.location.href = "capricorn.html";   
             break;
