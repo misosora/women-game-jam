@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="music/bg.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Background -->
+    <div class="stars"></div>
+    <div class="twinkling"></div> 
+    <div class="clouds"></div>
+
+    <div class="starmap">
+        <img src="assets/img/libra.png" alt="stars" usemap="#orbs" width="100%">
+        <map name="orbs">
+            <area onclick="onStorieOrbClick('libra',0)" alt="a" href="#" coords="1104,1629,71" shape="circle">
+            <area onclick="onStorieOrbClick('libra',1)" alt="a" href="#" coords="1091,1447,70" shape="circle">
+            <area onclick="onStorieOrbClick('libra',2)" alt="a" href="#" coords="1730,1345,98" shape="circle">
+            <area onclick="onStorieOrbClick('libra',3)" alt="a" href="#" coords="2094,658,96" shape="circle">
+            <area onclick="onStorieOrbClick('libra',4)" alt="a" href="#" coords="1597,365,147" shape="circle">
+            <area onclick="onStorieOrbClick('libra',5)" alt="a" href="#" coords="1316,753,72" shape="circle">
+            <area onclick="onStorieOrbClick('libra',6)" alt="a" href="#" coords="1175,833,65" shape="circle">
+            <area onclick="onStorieOrbClick('libra',7)" alt="a" href="#" coords="932,901,73" shape="circle">
+            <area onclick="onPuzzleOrbClick('libra')" alt="a" href="#"    coords="828,756,72" shape="circle">
+        </map>
+    </div>
+    
+    <script type="text/javascript" src="scrpits/game.js"></script> 
+    <script type="text/javascript" src="scrpits/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+        imageMapResize();
+    </script>
+</body>

@@ -6,11 +6,10 @@ request.responseType = "json";
 
 request.send();
 
-let stories = NaN
+let stories;
 request.onload =  function() {
     stories = request.response;
 }
-
 
 function makePopUp(map, text, isPuzzle) {
     var popUp = document.createElement('div');
@@ -18,7 +17,6 @@ function makePopUp(map, text, isPuzzle) {
 
     var container = document.createElement('div');
     container.setAttribute("class", "container");
-    container.style.backgroundImage = "url('assets/img/pausa.png')";
 
     var h1 = document.createElement('h1');
     h1.innerHTML = text
@@ -53,11 +51,6 @@ function makePopUp(map, text, isPuzzle) {
     document.body.appendChild(popUp);
 }
 
-function onPuzzleOrbClick(map) {
-    var puzzleText = stories[map]["puzzle"]["text"];
-    makePopUp(map, puzzleText, true);
-}
-
 function checkPuzzleAnswer(map) {
     console.log(stories[map]["puzzle"]);
     var puzzleExpectedAnswer = stories[map]["puzzle"]["solution"];
@@ -72,4 +65,14 @@ function checkPuzzleAnswer(map) {
         alert("erro");
     }
     
+}
+
+function onPuzzleOrbClick(map) {
+    var puzzleText = stories[map]["puzzle"]["text"];
+    makePopUp(map, puzzleText, true);
+}
+
+function onStorieOrbClick(map, storieIndex) {
+    var storie = stories[map]["stories"][storieIndex];
+    makePopUp(map, storie, false);
 }

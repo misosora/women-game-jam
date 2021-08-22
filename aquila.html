@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="music/bg.mp3" type="audio/mpeg">
+    </audio>
+ 
+    <!-- Background -->
+    <div class="stars"></div>
+    <div class="twinkling"></div> 
+    <div class="clouds"></div>  
+
+    <div class="starmap">
+        <img src="assets/img/aquila.png" usemap="#orbs">
+        <map name="orbs">
+            <area onclick="onStorieOrbClick('aquila', 0)" alt="#" href="#" coords="551,1178,67" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 1)" alt="#" href="#" coords="934,1045,60" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 2)" alt="#" href="#" coords="948,522,53" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 3)" alt="#" href="#" coords="966,385,69" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 4)" alt="#" href="#" coords="1090,218,51" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 5)" alt="#" href="#" coords="1399,944,97" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 6)" alt="#" href="#" coords="1603,1391,76" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 7)" alt="#" href="#" coords="1080,1246,58" shape="circle">
+            <area onclick="onStorieOrbClick('aquila', 8)" alt="#" href="#" coords="1940,273,49" shape="circle">
+            <area onclick="onPuzzleOrbClick('aquila')" alt="#" href="#" coords="2077,206,58" shape="circle">
+        </map>
+    </div>
+    
+    <script type="text/javascript" src="scrpits/game.js"></script> 
+    <script type="text/javascript" src="scrpits/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+        imageMapResize();
+    </script>
+</body>
+
+

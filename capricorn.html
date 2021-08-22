@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="music/bg.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Background -->
+    <div class="stars"></div>
+    <div class="twinkling"></div> 
+    <div class="clouds"></div>
+
+    <div class="starmap">
+        <img src="assets/img/capricorn.png" alt="stars" usemap="#orbs" width="100%">
+        <map name="orbs">
+            <area onclick="onStorieOrbClick('capricorn', 0)" alt="#" href="#" coords="2050,461,59" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 1)" alt="#" href="#" coords="480,665,61" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 2)" alt="#" href="#" coords="668,1094,103" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 3)" alt="#" href="#" coords="1248,729,135" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 4)" alt="#" href="#" coords="909,699,70" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 5)" alt="#" href="#" coords="638,695,62" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 6)" alt="#" href="#" coords="1291,1518,66" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 7)" alt="#" href="#" coords="1910,495,55" shape="circle">
+            <area onclick="onStorieOrbClick('capricorn', 8)" alt="#" href="#" coords="1413,1415,67" shape="circle">
+            <area onclick="onPuzzleOrbClick('capricorn')" alt="#" href="#" coords="1979,624,66" shape="circle">
+        </map>
+    </div>
+    
+    <script type="text/javascript" src="scrpits/game.js"></script> 
+    <script type="text/javascript" src="scrpits/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+        imageMapResize();
+    </script>
+</body>
