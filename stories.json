@@ -6,8 +6,8 @@
         ],     
             
         "puzzle": {
-            "text": "AAAAAAA",
-            "solution": "lol"
+            "text": "Sou do equador celestial. Meu nome, do latim, significa 'Águia' e respresento a ave que carregou os raios de Zeus. Quem eu sou?",
+            "solution": "Aquila"
         }
     }, 
     
@@ -18,8 +18,8 @@
         ],     
             
         "puzzle": {
-            "text": "AAAAAAA",
-            "solution": "lol"
+            "text": "Deus Pã, que possuía o corpo humano, dois chifres e patas caprinas. Quem eu sou?",
+            "solution": "Capricórnio"
         }
     },
 
@@ -27,18 +27,12 @@
         "stories": [
             "Sempre um passo de cada vez, sempre carregando o semblante de um futuro inalcançável. Respiro fundo. Arrasto a pútrida luxúria que me compõe e me jogo no embalo das correntes em meus pés.",
             "É a dança ressentida que consome meu pesar. Um passo de cada vez. Esse samba castigado, esse tango imprudente com a foice prateada do luar. É o que me resta. Ao som dos aplausos estáticos acima de mim, desmorono nas macieiras com a força de uma bala perdida entre gritos e ilusões.",
-            "segunda historia",
-            "terceira historia",
-            "quarta historia",
-            "quinta historia",
-            "sexta historia",
-            "setima historia",
-            "oitava historia"
+            "Eu me levanto. Eu corro até o espelho e toco meus olhos atentos. Eu sou."
         ],     
             
         "puzzle": {
-            "text": "Eu me levanto. Eu corro até o espelho e toco meus olhos atentos. Eu sou.",
-            "solution": "eu"    
+            "text": "Deusa da justiça e da pureza. Em uma de suas mãos carrega uma balança onde pesa e avalia o que é justo entre pessoas e situações. Quem eu sou?",
+            "solution": "Libra"    
         }
     }
 
