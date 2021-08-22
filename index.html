@@ -4,16 +4,16 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <audio controls autoplay>
-        <source src="music/bg.mp3" type="audio/mpeg">
-    </audio>
+    <div class="audio">
+        <audio src="music/music.mp3"></audio>
+        <button onclick="playAudio()">PLAY</button>
+    </div>
+
     <div class="stars"></div>
     <div class="twinkling"></div> 
     <div class="clouds"></div>
-    
     <div id="orbs">
-    <div><button class="puzzleOrb" onclick="onPuzzleOrbClick('libra')">PUZZLE ORB CLICK</button></div>
-    </div>
-    
+
     <script src="scripts/game.js"></script>  
+    <script src="scripts/audio.js"></script>
 </body>

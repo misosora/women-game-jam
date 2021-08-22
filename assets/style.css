@@ -92,7 +92,7 @@ button:hover{
     to {background-position:10000px 0;}
 }
 
-.stars, .twinkling, .clouds, .starmap {
+.stars, .twinkling, .clouds, .starmap, .audio {
   position:absolute;
   top:0;
   left:0;
@@ -125,9 +125,14 @@ button:hover{
     z-index:3; 
 }
 
+.audio {
+    z-index:4;
+}
+
 .starmap img {
     height: 100%;
     width: 70%;
     display: block;
     margin: auto;
 }
+
