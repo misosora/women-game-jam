@@ -1,0 +1,38 @@
+{
+    "aquila": {
+        "stories": [
+            "Vivo entre mundos esparsos, cheios de vida distante e intocável.\nUma parte de mim quer se afogar nas flores, na água doce que escorre pelos campos dourados do meu olhar.\nOutra parte quer desenterrar o verde macio que emoldura minhas mãos e me libertar desta prisão de nuvens e sóis infinitos.",
+            "É meu porto seguro. É o ar que caminha gelado pelo meu corpo e sai quente, em um jato de sonhos esquecidos. Como me libertar das prisões que criei? Presa por amarras tão lindas feitas da mais pura seda, tecidas com todo arrependimento de uma vida que não existe mais. Meus pulsos tão finos, tão fortes, se misturam ao vermelho do tecido carmim, já não sei mais distinguir entre o que sou e o que gostaria que fosse."
+        ],     
+            
+        "puzzle": {
+            "text": "AAAAAAA",
+            "solution": "lol"
+        }
+    }, 
+    
+    "capricorn": {
+        "stories": [
+            "Um sonho febril, um delírio, uma esperança no fim do dia. Não sei dizer se estou no início de onde quero estar ou no fim do caminho que trilhei, desenorteada por todas as constantes que pensei ter encontrado.",
+            "Encontrei apenas um fragmento de mim transbordando de incertezas arruinadas pelo que jamais serei, e perdi-me neste emaranhado de fios ensanguentados, minha pele rompida a cada inspiração.\nNão sei onde estou e tenho medo.\nTenho medo de me levantar."
+        ],     
+            
+        "puzzle": {
+            "text": "AAAAAAA",
+            "solution": "lol"
+        }
+    },
+
+    "libra": {
+        "stories": [
+            "Sempre um passo de cada vez, sempre carregando o semblante de um futuro inalcançável. Respiro fundo. Arrasto a pútrida luxúria que me compõe e me jogo no embalo das correntes em meus pés.",
+            "É a dança ressentida que consome meu pesar. Um passo de cada vez. Esse samba castigado, esse tango imprudente com a foice prateada do luar. É o que me resta. Ao som dos aplausos estáticos acima de mim, desmorono nas macieiras com a força de uma bala perdida entre gritos e ilusões."
+        ],     
+            
+        "puzzle": {
+            "text": "Eu me levanto. Eu corro até o espelho e toco meus olhos atentos. Eu sou.",
+            "solution": "eu"    
+        }
+    }
+
+}

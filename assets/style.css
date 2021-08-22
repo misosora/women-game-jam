@@ -1,0 +1,135 @@
+#orbs {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: auto;
+    position: relative;
+    z-index: 10;
+}
+
+#orbs div {
+    padding: 5px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: oliver;
+    src: url(oliver.ttf);
+}
+
+*{
+    font-family: oliver; 
+    font-weight: normal;
+    color: #ffffff;
+}
+
+body{
+    cursor: url(img/orb-cursor.png), default;
+}
+
+h1{
+    position: relative;
+    font-family: oliver;
+    font-size: 25px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    z-index: 10;
+}
+#pop-up{
+    position: relative; 
+    top: 100px; 
+    width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+    z-index: 10;
+}
+#pop-up .container{
+    background-image: url(img/pausa.png); 
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 400px;
+    position: absolute; 
+    width: 100%; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+#pop-up input{
+    padding: 10px;
+    margin-top: 150px;
+    border: 0;
+    border-radius: 10px;
+    border: 1px solid #15141e;
+    font-size: 15px;
+    color: #15141e;
+}
+button{
+    padding: 10px;
+    color: #ffffff;
+    background: #33314b;
+    border-radius: 10px;
+    border: 1px solid #15141e;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: url(img/orb-cursor.png), default;
+    transition: 0.2s;
+}
+
+button:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+/*// POP-UP ANIMATION //*/
+
+#pop-up{
+    animation: zoom 0.8s ease forwards;
+}
+
+@keyframes zoom{
+    0%{transform: scale(0);}
+    70%{transform: scale(1.1)}
+    100%{transform: scale(1);}
+}
+
+/*// BACKGROUND //*/
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#15141e url(img/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(img/twinkling.png) repeat top center;
+  z-index:1;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(img/clouds.png) repeat top center;
+    z-index:2;
+    opacity: .4;
+    animation:move-clouds-back 200s linear infinite;
+}
