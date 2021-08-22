@@ -41,11 +41,11 @@ function makePopUp(map, text, isPuzzle) {
     }
 
     var closeButton = document.createElement('button');
+    closeButton.innerHTML = 'X';
     closeButton.onclick = function() {
         var popUp = document.getElementById('pop-up');
         popUp.remove();
     }
-    closeButton.innerHTML = 'X';
 
     container.appendChild(closeButton);
 
