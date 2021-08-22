@@ -1,4 +1,4 @@
-var requestURL = "https://raw.githubusercontent.com/gabiusp/women-game-jam/script/stories.json";
+var requestURL = "https://github.com/gabiusp/women-game-jam/blob/main/stories.json";
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
