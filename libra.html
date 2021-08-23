@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <div class="scene">
+        <img src="assets/img/eu_seria.jpg">
+    </div>
+
     <audio src="music/music.mp3"></audio>
 
     <!-- Background -->
@@ -34,5 +38,11 @@
         imageMapResize();
     </script>
     <script type="text/javascript" src="scripts/audio.js"></script>
+    <script type="text/javascript">
+        var scene = document.querySelector('.scene');
+        scene.addEventListener('animationend',function(event) { 
+            scene.style.display = 'none'; 
+        }, false);
+    </script>
 
 </body>

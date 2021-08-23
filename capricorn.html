@@ -4,9 +4,12 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <div class="scene">
+        <img src="assets/img/eu_era.jpg">
+    </div>
+
     <audio src="music/music.mp3"></audio>
     
-
     <!-- Background -->
     <div class="stars"></div>
     <div class="twinkling"></div> 
@@ -36,5 +39,11 @@
         imageMapResize();
     </script>
     <script src="scripts/audio.js"></script>
+    <script type="text/javascript">
+        var scene = document.querySelector('.scene');
+        scene.addEventListener('animationend',function(event) { 
+            scene.style.display = 'none'; 
+        }, false);
+    </script>
 
 </body>

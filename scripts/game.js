@@ -1,7 +1,7 @@
 let stories;
 
 function readStories() {
-    var requestURL = "https://github.com/gabiusp/women-game-jam/blob/main/stories.json";
+    var requestURL = "https://raw.githubusercontent.com/gabiusp/women-game-jam/main/stories.json";
     var request = new XMLHttpRequest();
 
     request.open('GET', requestURL);
@@ -66,10 +66,10 @@ function gotoNextConstelation(map) {
             window.location.href = "libra.html";
             break;
         case 'libra':
-            window.location.href = "index.html";
+            window.location.href = "final.html";
             break;
         default:
-            alert("erro");
+            alert("Erro");
             break;
     }
 }
@@ -85,7 +85,7 @@ function checkPuzzleAnswer(map) {
     if (puzzleAnswer.value == puzzleExpectedAnswer) {
         gotoNextConstelation(map);
     } else {
-        alert("erro");
+        alert("Resposta errada, tente novamente!");
     }
     
 }

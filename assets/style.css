@@ -11,6 +11,7 @@
 
 body{
     cursor: url(img/orb-cursor.png), default;
+    overflow: hidden;
 }
 
 h1{
@@ -154,3 +155,29 @@ button:hover{
 #start-screen{
     background: url(img/start.png);
 }
+
+.scene{
+    position: absolute; 
+    top: 20px;
+    left: 0;
+    right: 0;
+    display:block;
+    z-index: 10;
+    animation: zoom 3s ease-out forwards;
+}
+
+.scene img{
+    display: block;
+    width: 800px; 
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    border-radius: 50px;
+    margin: auto; 
+}
+
+#acknowledgment {
+    display: none;
+    text-align: center;
+}   

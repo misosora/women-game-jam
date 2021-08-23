@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body id="start-screen">
+    <div class="scene">
+        <img src="assets/img/eu_sou.jpg">
+    </div>
+
+    <div id="acknowledgment">
+        <h1>
+        </h1>
+        <img src="">
+        <img src="">
+    </div>
+
+    <div class="stars"></div>
+    <div class="twinkling"></div> 
+    <div class="clouds"></div>
+
+    <script src="scripts/game.js"></script>  
+    <script src="scripts/audio.js"></script>
+    <script type="text/javascript">
+        var scene = document.querySelector('.scene');
+        var acknowledgment = document.querySelector('#acknowledgment')
+        scene.addEventListener('animationend',function(event) { 
+            scene.style.display = 'none'; 
+            acknowledgment.style.display = 'block';
+        }, false);
+    </script>
+
+</body> 
