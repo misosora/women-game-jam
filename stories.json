@@ -1,53 +1,56 @@
 {
     "aquila": {
         "stories": [
-            "Vivo entre mundos esparsos, cheios de vida distante e intocável.",
-            "Uma parte de mim quer se afogar nas flores, na água doce que escorre pelos campos dourados do meu olhar.",
-            "Outra parte quer desenterrar o verde macio que emoldura minhas mãos e me libertar desta prisão de nuvens e sóis infinitos.",
-            "É meu porto seguro.",
-            "É o ar que caminha gelado pelo meu corpo e sai quente, em um jato de sonhos esquecidos.",
-            "Como me libertar das prisões que criei? Presa por amarras tão lindas feitas da mais pura seda, tecidas com todo arrependimento de uma vida que não existe mais.",
-            "Meus pulsos tão finos, tão fortes, se misturam ao vermelho do tecido carmim, já não sei mais distinguir entre o que sou e o que gostaria que fosse.",
-            "Um sonho febril, um delírio, uma esperança no fim do dia."
-        ],     
+            "No alto do céu, havia uma constelação que hoje é lembrança. Lá ficaram os meus sonhos de menina que flutuavam em fantasias de criança.",
+            "Eu sorria e suportava em meus ombros toda a leveza da vida.",
+            "Em meus sonhos, caminhos de flores e borboletas brilhantes me guiavam para tudo que sempre quis ter: o mundo.",
+            "Olhos sempre sorrindo, balançando e pulando em lindos jardins e gangorras coloridas.",
+            "Meus pequenos pés me carregavam em direção a um futuro cheio de sucesso e riquezas ao lado de todos que acreditavam em mim.",
+            "Sustentava todas as promessas e juramentos de dedinho com toda a seriedade de uma pequena sonhadora.",
+            "Achei que pudesse mudar o mundo, eu achei que a luz daquelas lindas borboletas fosse eterna.",
+            "Dançava como os pássaros e sonhava com suas asas, pois eu sabia que ali era o meu lugar.",
+            "Quem sou eu?"
+        ],
             
         "puzzle": {
-            "text": "",
-            "solution": ""
+            "text": "Cheia de esperanças e expectativas. Fui construída tão alta, quase capaz de tocar as estrelas. No entanto, se busco me encontrar, tenho certeza de que esta que vejo não sou eu. ",
+            "solution": "Eu era"
         }
-    }, 
+    },
     
     "capricorn": {
         "stories": [
-            "Não sei dizer se estou no início de onde quero estar ou no fim do caminho que trilhei.",
-            "Desnorteada por todas as constantes que pensei ter encontrado.",
-            "Encontrei apenas um fragmento de mim transbordando de incertezas arruinadas pelo que jamais serei.", 
-            "Perdi-me neste emaranhado de fios ensanguentados, minha pele rompida a cada inspiração.",
-            "Não sei onde estou e tenho medo.",
-            "Tenho medo de me levantar.",
-            "Sempre um passo de cada vez.",
-            "Sempre carregando o semblante de um futuro inalcançável."
+            "Para esta constelação, eu cantarolava e minha voz se espalhava, não sabia o que eram dores. Apenas me entretia a cantar e só com as estrelas vivia a sonhar. Mas um dia deixei de ser criança...",
+            "Eu chorava e suportava em meus ombros todo o peso do fracasso.",
+            "Em meus sonhos, o concreto gelado sob meus pés me guiava lentamente até o fim de mais um caminho solitário.",
+            "Olhos sempre grudados às pedras geladas de junho, estáticos e secos como a flora ao meu redor.",
+            "Meus passos lentos carregavam meu corpo em direção a algo que já não importava mais.",
+            "Quebrei todas as minhas promessas e juramentos de grandeza com toda a força de uma desilusão.",
+            "Compreendi que não podia mudar o mundo, minha luz havia se apagado há muito tempo.",
+            "Curvava meus ombros e abraçava meus braços pesados, pois eu sabia que jamais poderia voar.",
+            "Quem sou eu?"
         ],     
             
         "puzzle": {
-            "text": "",
-            "solution": ""
+            "text": "Sem mais esperanças ou expectativas. Fui derrubada de cima do meu castelo de estrelas. Agora busco me encontrar, mas não tenho certeza de quem eu sou.",
+            "solution": "Eu seria"
         }
     },
 
     "libra": {
         "stories": [
-            "Respiro fundo.",
-            "Arrasto a pútrida luxúria que me compõe e me jogo no embalo das correntes em meus pés.",
-            "É a dança ressentida que consome meu pesar.",
-            "Um passo de cada vez.",
-            "Esse samba castigado.",
-            "Esse tango imprudente com a foice prateada do luar.",
-            "É o que me resta. Ao som dos aplausos estáticos acima de mim, desmorono nas macieiras com a força de uma bala perdida entre gritos e ilusões."
-        ],     
-            
+            "Esta última constelação me revelou que a vida possui duas faces: positiva e negativa. O passado foi duro mas deixou o seu legado, saber viver é a grande sabedoria.",
+            "Eu avanço, um dia de cada vez, e já não preciso mais suportar.",
+            "Em meus sonhos, uma luz fraca acompanha meus passos e me guia ao começo daquilo que jamais imaginei.",
+            "Olhos sempre atentos, voltados ao caminho à minha frente com a determinação de uma supernova.",
+            "Meus passos rápidos e certeiros me carregam em direção a um futuro que achava inalcançável: o meu.",
+            "Quebrei minhas correntes e me libertei daquilo que queriam que eu fosse com toda a coragem de uma pequena guerreira.",
+            "Compreendi que não podia mudar o mundo, mas eu estou tentando.",
+            "Quem sou eu?"
+        ],
+
         "puzzle": {
-            "text": "Eu me levanto. Eu corro até o espelho e toco meus olhos atentos. Quem sou eu?",
+            "text": "Liberta de expectativas e salva por esperanças. Construí-me junto às estrelas e posso tocá-las com toda a minha luz. Eu me encontrei, e tenho certeza de que eu finalmente sou eu.",
             "solution": "Eu sou"    
         }
     }
