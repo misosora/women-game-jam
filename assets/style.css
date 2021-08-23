@@ -93,7 +93,7 @@ button:hover{
     to {background-position:10000px 0;}
 }
 
-.stars, .twinkling, .clouds, .starmap, .audioButton {
+.stars, .twinkling, .clouds, .starmap, .audioButton, #acknowledgment {
   position:absolute;
   top: 0;
   left: 0;
@@ -178,6 +178,11 @@ button:hover{
 }
 
 #acknowledgment {
+    z-index: 10;
+    /* background-image: url(img/us.png); */
+    /* background-size: 25% 50%; */
+    /* background-repeat: no-repeat; */
+    margin-top: 10%;
     display: none;
     text-align: center;
 }   
